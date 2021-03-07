@@ -1,20 +1,20 @@
 //
-//  HomeViewController.swift
+//  HomeTabViewController.swift
 //  InstagramClone
 //
-//  Created by holyspirit on 2021/03/01.
+//  Created by holyspirit on 2021/03/07.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeTabViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+
 
     /*
     // MARK: - Navigation
