@@ -1,13 +1,13 @@
 //
-//  HomeTabViewController.swift
+//  PushOneViewController.swift
 //  InstagramClone
 //
-//  Created by holyspirit on 2021/03/07.
+//  Created by holyspirit on 2021/03/14.
 //
 
 import UIKit
 
-class HomeTabViewController: UIViewController {
+class PushOneViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +15,12 @@ class HomeTabViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func pushTwo(_ sender: Any) {
+        self.present(SecontdPushViewController(), animated: false) {
+            
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
