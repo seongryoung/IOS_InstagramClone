@@ -35,14 +35,11 @@
             symbolName = "*0x7fff20177e85">
             <Locations>
                <Location
-                  uuid = "2F183758-9223-4904-A763-E035C7E89E9D - ca05e3e8d0103ce6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "objc_exception_throw"
-                  moduleName = "libobjc.A.dylib"
                   usesParentBreakpointCondition = "Yes"
-                  offsetFromSymbolStart = "61">
+                  offsetFromSymbolStart = "0">
                </Location>
             </Locations>
          </BreakpointContent>
