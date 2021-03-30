@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1634D18F2612F7F800285565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F59CA825ED1E2B00971D75 /* AppDelegate.swift */; };
 		3957252E25F4A69B00BAFD7A /* HomeTabViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3957252C25F4A69B00BAFD7A /* HomeTabViewController.storyboard */; };
 		3957253325F4A7B400BAFD7A /* SearchTabViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3957253225F4A7B400BAFD7A /* SearchTabViewController.storyboard */; };
 		3998474225F48C8900210AA0 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998474025F48C8900210AA0 /* HomeTabViewController.swift */; };
@@ -14,10 +15,8 @@
 		39CA448125FE39B1009A425E /* PushOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CA447F25FE39B1009A425E /* PushOneViewController.xib */; };
 		39CA448525FE3E96009A425E /* SecontdPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CA448325FE3E96009A425E /* SecontdPushViewController.swift */; };
 		39CA448625FE3E96009A425E /* SecontdPushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39CA448425FE3E96009A425E /* SecontdPushViewController.xib */; };
-		39F59CA925ED1E2B00971D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F59CA825ED1E2B00971D75 /* AppDelegate.swift */; };
-		39F59CAB25ED1E2B00971D75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F59CAA25ED1E2B00971D75 /* SceneDelegate.swift */; };
 		39F59CAD25ED1E2B00971D75 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F59CAC25ED1E2B00971D75 /* MainViewController.swift */; };
-		39F59CB025ED1E2B00971D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F59CAE25ED1E2B00971D75 /* Main.storyboard */; };
+		39F59CB025ED1E2B00971D75 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F59CAE25ED1E2B00971D75 /* MainViewController.storyboard */; };
 		39F59CB225ED1E2D00971D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F59CB125ED1E2D00971D75 /* Assets.xcassets */; };
 		39F59CB525ED1E2D00971D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F59CB325ED1E2D00971D75 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -32,9 +31,8 @@
 		39CA448425FE3E96009A425E /* SecontdPushViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecontdPushViewController.xib; sourceTree = "<group>"; };
 		39F59CA525ED1E2B00971D75 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F59CA825ED1E2B00971D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39F59CAA25ED1E2B00971D75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		39F59CAC25ED1E2B00971D75 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		39F59CAF25ED1E2B00971D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39F59CAF25ED1E2B00971D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
 		39F59CB125ED1E2D00971D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39F59CB425ED1E2D00971D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39F59CB625ED1E2D00971D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,7 +101,7 @@
 				39F59CBF25ED275C00971D75 /* View */,
 				39F59CBD25ED219A00971D75 /* AppLifeCycle */,
 				39F59CAC25ED1E2B00971D75 /* MainViewController.swift */,
-				39F59CAE25ED1E2B00971D75 /* Main.storyboard */,
+				39F59CAE25ED1E2B00971D75 /* MainViewController.storyboard */,
 				39F59CB125ED1E2D00971D75 /* Assets.xcassets */,
 				39F59CB325ED1E2D00971D75 /* LaunchScreen.storyboard */,
 				39F59CB625ED1E2D00971D75 /* Info.plist */,
@@ -115,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				39F59CA825ED1E2B00971D75 /* AppDelegate.swift */,
-				39F59CAA25ED1E2B00971D75 /* SceneDelegate.swift */,
 			);
 			path = AppLifeCycle;
 			sourceTree = "<group>";
@@ -189,7 +186,7 @@
 				39F59CB525ED1E2D00971D75 /* LaunchScreen.storyboard in Resources */,
 				39F59CB225ED1E2D00971D75 /* Assets.xcassets in Resources */,
 				3957252E25F4A69B00BAFD7A /* HomeTabViewController.storyboard in Resources */,
-				39F59CB025ED1E2B00971D75 /* Main.storyboard in Resources */,
+				39F59CB025ED1E2B00971D75 /* MainViewController.storyboard in Resources */,
 				39CA448125FE39B1009A425E /* PushOneViewController.xib in Resources */,
 				39CA448625FE3E96009A425E /* SecontdPushViewController.xib in Resources */,
 			);
@@ -205,9 +202,8 @@
 				39CA448025FE39B1009A425E /* PushOneViewController.swift in Sources */,
 				39F59CAD25ED1E2B00971D75 /* MainViewController.swift in Sources */,
 				3998474225F48C8900210AA0 /* HomeTabViewController.swift in Sources */,
+				1634D18F2612F7F800285565 /* AppDelegate.swift in Sources */,
 				39CA448525FE3E96009A425E /* SecontdPushViewController.swift in Sources */,
-				39F59CA925ED1E2B00971D75 /* AppDelegate.swift in Sources */,
-				39F59CAB25ED1E2B00971D75 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,12 +218,12 @@
 			name = HomeTabViewController.storyboard;
 			sourceTree = "<group>";
 		};
-		39F59CAE25ED1E2B00971D75 /* Main.storyboard */ = {
+		39F59CAE25ED1E2B00971D75 /* MainViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				39F59CAF25ED1E2B00971D75 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		39F59CB325ED1E2D00971D75 /* LaunchScreen.storyboard */ = {
@@ -292,10 +288,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -347,9 +343,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -362,14 +359,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = InstagramClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.seong.InstagramClone;
+				PRODUCT_BUNDLE_IDENTIFIER = seong.InstagramClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -380,14 +380,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = InstagramClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.seong.InstagramClone;
+				PRODUCT_BUNDLE_IDENTIFIER = seong.InstagramClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
