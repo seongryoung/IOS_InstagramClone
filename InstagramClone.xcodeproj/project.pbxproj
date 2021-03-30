@@ -61,12 +61,12 @@
 		39CA448825FE41D5009A425E /* HomeTab */ = {
 			isa = PBXGroup;
 			children = (
+				3957252C25F4A69B00BAFD7A /* HomeTabViewController.storyboard */,
 				3998474025F48C8900210AA0 /* HomeTabViewController.swift */,
 				39CA447E25FE39B0009A425E /* PushOneViewController.swift */,
+				39CA447F25FE39B1009A425E /* PushOneViewController.xib */,
 				39CA448325FE3E96009A425E /* SecontdPushViewController.swift */,
 				39CA448425FE3E96009A425E /* SecontdPushViewController.xib */,
-				39CA447F25FE39B1009A425E /* PushOneViewController.xib */,
-				3957252C25F4A69B00BAFD7A /* HomeTabViewController.storyboard */,
 			);
 			path = HomeTab;
 			sourceTree = "<group>";
