@@ -18,8 +18,10 @@ class HomeTabViewController: UIViewController {
 
     @IBAction func pushOne(_ sender: Any) {
         let pushOneVC = PushOneViewController()
-        pushOneVC.modalPresentationStyle = .fullScreen
-        self.present(pushOneVC, animated: true) {}
+//        pushOneVC.modalPresentationStyle = .fullScreen
+//        self.present(pushOneVC, animated: true) {}
+        
+        self.navigationController?.pushViewController(pushOneVC, animated: true)
     }
     /*
     // MARK: - Navigation

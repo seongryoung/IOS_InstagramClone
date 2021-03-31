@@ -16,9 +16,10 @@ class PushOneViewController: UIViewController {
     }
 
     @IBAction func pushTwo(_ sender: Any) {
-        self.present(SecontdPushViewController(), animated: false) {
-            
-        }
+//        self.present(SecontdPushViewController(), animated: false) {
+//
+//        }
+        self.navigationController?.popToRootViewController(animated: true)
     }
     
     /*
